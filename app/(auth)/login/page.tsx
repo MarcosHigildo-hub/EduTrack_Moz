@@ -144,7 +144,7 @@ export default function LoginPage() {
                 <Input
                   id="password"
                   type={mostrarSenha ? "text" : "password"}
-                  placeholder="••••••"
+                  placeholder="Palavra-passe"
                   className="pl-10 pr-3"
                   {...register("senha")}
                 />
