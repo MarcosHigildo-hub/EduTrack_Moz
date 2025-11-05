@@ -1,4 +1,4 @@
-# 🧭 **XEIME Education**
+# **XEIME Education**
 
 **Plataforma de gestão escolar simples e acessível**  
 Para professores, alunos e encarregados.  
