@@ -1,8 +1,7 @@
-# 🧭 **EduTrack Moz**
+# 🧭 **XEIME Education**
 
 **Plataforma de gestão escolar simples e acessível**  
 Para professores, alunos e encarregados.  
-**Feito com Next.js 14 + Tailwind CSS + shadcn/ui**
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat&logo=typescript)](https://typescriptlang.org)
