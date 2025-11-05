@@ -7,7 +7,7 @@ type StatCardProps = {
   title: string;
   value: number | string;
   subtitle?: string;
-  buttonText: string;
+  // buttonIcone: LucideIcon;
   icon: LucideIcon;
   color: string;
   buttonColor: string;
@@ -19,7 +19,7 @@ export default function StatCard({
   title,
   value,
   subtitle,
-  buttonText,
+  // buttonIcone: ButtonIcone,
   icon: Icon,
   color,
   buttonColor,
@@ -27,22 +27,21 @@ export default function StatCard({
 }: StatCardProps) {
   return (
     <Card className="hover:shadow-lg transition-shadow">
-      <CardHeader className="pb-3">
-        <CardTitle className="text-lg flex items-center gap-2 justify-center">
+      <CardHeader className="pb-1">
+        <CardTitle className="text-lg flex gap-2 items-center ">
           <Icon className={`h-5 w-5 ${color}`} />
           <span>{title}</span>
         </CardTitle>
       </CardHeader>
-      <CardContent className="text-center">
-        <p className={`text-3xl font-bold ${color}`}>{value}</p>
-        {subtitle && <p className="text-sm text-gray-600">{subtitle}</p>}
+      <CardContent className="">
+        <div className="flex items-center justify-between">
+          <p className={`text-3xl font-bold ${color}`}>{value}</p>
+          {/* <Button className={`rounded-full ${buttonColor}`} onClick={onClick}>
+            < ButtonIcone className="w-5 h-5"/>
+          </Button> */}
+        </div>
 
-        <Button
-          className={`mt-3 w-full ${buttonColor}`}
-          onClick={onClick}
-        >
-          {buttonText}
-        </Button>
+        {subtitle && <p className="text-sm text-gray-600">{subtitle}</p>}
       </CardContent>
     </Card>
   );
