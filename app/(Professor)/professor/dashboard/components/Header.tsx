@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 
 const Header = () => {
   return (
-    <nav className="bg-white border-b border-gray-200 px-4 py-4 mt-4 mr-4 rounded-2xl">
+    <nav className="bg-white border-b border-[#9BBCF0] px-4 py-4 mt-4 mx-4 rounded-2xl">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4 flex-1 max-w-md">
           <div className="relative w-full">
@@ -23,7 +23,7 @@ const Header = () => {
         
           <div className="flex items-center gap-3">
             <div className="text-right ">
-              <p className="text-sm font-medium">João Machava</p>
+              <p className="text-sm font-bold text-[#2F59E0]">João Machava</p>
             </div>
 
             <Avatar className="w-7 h-7">
@@ -36,7 +36,7 @@ const Header = () => {
           
 
           <div className="flex items-center gap-4">
-            <button className="relative p-2 text-gray-600 hover:bg-gray-100 rounded-lg">
+            <button className="relative p-2 text-[#2F91E0] hover:text-[#2FE0BE] rounded-lg">
               <Bell size={20} />
               <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
             </button>

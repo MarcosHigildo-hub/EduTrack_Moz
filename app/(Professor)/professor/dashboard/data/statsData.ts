@@ -1,4 +1,4 @@
-import { Users, BookOpen, Calendar, FileCheck, ArrowUpRight} from "lucide-react";
+import { Users, BookOpen, FileCheck, ArrowUpRight, NotebookPen} from "lucide-react";
 
 export const stats = [
   {
@@ -7,7 +7,7 @@ export const stats = [
     subtitle: '',
     buttonIcone: ArrowUpRight,
     icon: Users,
-    color: 'text-green-600',
+    color: 'text-[#2FE0BE]',
     buttonColor: 'bg-green-600 hover:bg-green-700 text-white',
   },
   {
@@ -16,7 +16,7 @@ export const stats = [
     subtitle: '',
     buttonIcone: ArrowUpRight,
     icon: BookOpen,
-    color: 'text-blue-600',
+    color: 'text-[#2F91E0]',
     buttonColor: 'bg-blue-600 hover:bg-blue-700 text-white',
   },
   {
@@ -24,8 +24,8 @@ export const stats = [
     value: 2,
     subtitle: '',
     buttonIcone: ArrowUpRight,
-    icon: Calendar,
-    color: 'text-orange-600',
+    icon: NotebookPen,
+    color: 'text-[#2FC9E0]',
     buttonColor: 'bg-orange-600 hover:bg-orange-700 text-white',
   },
   {
@@ -34,7 +34,7 @@ export const stats = [
     subtitle: '',
     buttonIcone: ArrowUpRight,
     icon: FileCheck,
-    color: 'text-purple-600',
+    color: 'text-[#3E2FE0]',
     buttonColor: 'bg-purple-600 hover:bg-purple-700 text-white',
   },
 ];

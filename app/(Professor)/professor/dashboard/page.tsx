@@ -1,17 +1,12 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Bell, Menu, User, Home, Settings, Clock } from "lucide-react";
 import StatCard from "../dashboard/components/StatCard";
-import ActivityItem from "../dashboard/components/ActivityItem";
 import { stats } from "../dashboard/data/statsData";
-import { activities } from "../dashboard/data/activitiesData";
-import SidebarProfessor from "./components/SidebarProfessor";
-import NavbarProfessor from "./components/Header";
-import CalendarPainel from "./components/CalendarPainel";
+import { Calendar18 } from "./components/CalendarPainel";
+import Progresse from "./components/Progresse";
 import TodayTask from "./components/TodayTask";
-import RecenteActivites from "./components/RecenteActivites";
+
+
 
 export default function ProfessorDashboard() {
   return (
@@ -25,14 +20,14 @@ export default function ProfessorDashboard() {
         </div>
 
         <div className="">
-          < RecenteActivites />
+          < Progresse />
           
         </div>
       </div>
 
       <div className="grid grid-rows-2">
         <div>
-          < CalendarPainel />
+          < Calendar18 />
         </div>
 
         <div>

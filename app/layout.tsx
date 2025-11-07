@@ -1,14 +1,6 @@
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,8 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt">
-      <body className="min-h-screen  bg-gradient-to-br from-green-50 to-yellow-50">
-        {children}
+      <body className="min-h-screen bg-gradient-to-br from-[#9BBCF0] to-[#2FE0BE] flex justify-center my-auto  mx-auto">
+        <div className="flex max-w-7xl w-full shadow-lg p-4 rounded-xl overflow-hidden">
+          {children}
+        </div>
       </body>
     </html>
   );

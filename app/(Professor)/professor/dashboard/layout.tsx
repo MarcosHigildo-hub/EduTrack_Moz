@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import SidebarProfessor from "./components/SidebarProfessor";
 import Header from "./components/Header";
+import SidebarProfessor from "./components/SidebarProfessor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,12 +17,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt">
-      <body className="min-h-screen  bg-gradient-to-br from-green-50 to-yellow-50">
+      <body className="min-h-screen bg-gradient-to-br from-green-50 to-yellow-50">
         <SidebarProfessor />
-        <div className="lg:ml-72">
-          <Header />
+
+        <div className="flex-1 flex flex-col min-h-screen justify-center">
+          <div className="flex-1 max-w-7xl flex flex-col min-h-screen">
+            <Header />
+            <main className="flex-1 mt-4 mb-4 mx-4  max-h-screen">
+              {children}
+            </main>
+          </div>
         </div>
-        <main className="min-h-screen my-4 mx-4 lg:ml-72">{children}</main>
       </body>
     </html>
   );

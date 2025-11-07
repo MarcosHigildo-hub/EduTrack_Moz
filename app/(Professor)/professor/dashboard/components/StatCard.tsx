@@ -22,8 +22,8 @@ export default function StatCard({
   // buttonIcone: ButtonIcone,
   icon: Icon,
   color,
-  buttonColor,
-  onClick,
+  // buttonColor,
+  // onClick,
 }: StatCardProps) {
   return (
     <Card className="hover:shadow-lg transition-shadow">
