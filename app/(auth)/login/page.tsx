@@ -57,7 +57,7 @@ export default function LoginPage() {
         <div className="p-6 space-y-6">
           <div className="text-center space-y-1">
             <p className="text-2xl font-semibold">
-              Bem vindo(a) a <span className="text-green-600">EDUTRACK</span>{" "}
+              Bem vindo(a) a <span className="text-green-600">XEIME</span>{" "}
               Moz!
             </p>
             <p className="text-sm text-gray-600">

@@ -11,7 +11,7 @@ export const stats = [
     buttonColor: 'bg-green-600 hover:bg-green-700 text-white',
   },
   {
-    title: 'Plano Académico',
+    title: 'Plano Analítico',
     value: 20,
     subtitle: '',
     buttonIcone: ArrowUpRight,
