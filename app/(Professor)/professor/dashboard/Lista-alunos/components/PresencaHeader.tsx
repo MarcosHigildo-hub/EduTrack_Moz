@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Ghost, icons } from "lucide-react";
+import { TurmaProvider, useTurma } from "../../components/context/TurmaContext";
+import { Turmas, turmas } from "../../data/sidebarData";
+
 type prencaHeaderprops = {
   currentDate: string;
   onPrev: () => void;
@@ -11,6 +14,9 @@ export default function PresencaHeader({
   onPrev,
   onNext,
 }: prencaHeaderprops) {
+
+   const { turmaSelecionada } = useTurma();
+  //  console.log("Turma selecionada:", turmaSelecionada);
   return (
     <div className="bg-white border-b border-[#9BBCF0] p-2 rounded-2xl">
       <div className="flex justify-between items-center px-4">
@@ -18,7 +24,7 @@ export default function PresencaHeader({
         <h1 className="font-semibold text-xl text-[#2F59E0]">
           Lista de Alunos
         </h1>
-        <span className="text-gray-400 mt-5">Turma: C</span>
+        <span className="text-gray-400 mt-5">Turma: {turmaSelecionada?.toUpperCase() ?? "Nenhuma"}</span>
       </div>
 
       <div className="flex items-center justify-center">

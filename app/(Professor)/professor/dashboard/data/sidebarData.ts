@@ -14,6 +14,11 @@ export type ActionItem = {
     active?: boolean;
 }
 
+export type Turmas = {
+  id: string;
+  nome: string;
+}
+
 export const menuItems: MenuItem[] = [
   { label: "Dashboard", icon: Home, href: "/professor/dashboard",  },
   { label: "Alunos", icon: Users, href: "/professor/dashboard/Lista-alunos" },
@@ -27,4 +32,9 @@ export const actionItem: ActionItem[] = [
     {label: "Logout", icon: LogOut, href: "/Logout"},
 ];
 
+export const turmas: Turmas[] = [
+  { id: "t1", nome: "Turma A" },
+  { id: "t2", nome: "Turma B" },
+  { id: "t3", nome: "Turma C" },
+];
 
