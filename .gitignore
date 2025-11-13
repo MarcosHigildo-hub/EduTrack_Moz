@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignorar pastas inválidas/fantasmas
+app/.../
+
+# Ignorar outras pastas ou ficheiros temporários do Next.js
+.next/
+node_modules/

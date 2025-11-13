@@ -1,18 +1,20 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { ChartLine } from "lucide-react";
+
 
 export default function Progresse() {
   const percentagePrecenca = 0.81;
   const percentageMedia = 0.54;
   const percentageTarefas = 0.66;
   return (
-    <div className="bg-white mt-4 rounded-2xl text-center h-57 hover:shadow-lg transition-shadow shadow-sm">
-      <div className="p-6">
-        <h1 className="font-semibold text-xl text-[#2F59E0]">Desempenho da Turm</h1>
+    <div className="bg-white rounded-2xl text-center hover:shadow-lg transition-shadow shadow-sm">
+      <div className="p-2">
+        <h1 className="font-semibold text-xl flex justify-center items-center gap-2"> <ChartLine size={20}/> O seu desempenho</h1>
       </div>
 
-      <div className="flex justify-between items-center py-5">
+      <div className="flex justify-between items-center py-2">
         <div className="mx-auto flex flex-col justify-center items-center space-y-2">
           <div style={{ width: 80, height: 80 }}>
             <CircularProgressbar
@@ -68,10 +70,6 @@ export default function Progresse() {
           </span>
         </div>
       </div>
-
-      
-
-
     </div>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import DesafioDoDiaCard from "@/app/(Aluno)/aluno/dashboard/components/DesafioDoDia";
 import StatCard from "../dashboard/components/StatCard";
 import { stats } from "../dashboard/data/statsData";
 import { Calendar18 } from "./components/CalendarPainel";
@@ -20,8 +21,7 @@ export default function ProfessorDashboard() {
         </div>
 
         <div className="">
-          < Progresse />
-          
+          < Progresse /> 
         </div>
       </div>
 
