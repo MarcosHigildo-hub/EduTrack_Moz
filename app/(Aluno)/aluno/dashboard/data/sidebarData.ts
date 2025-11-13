@@ -16,7 +16,7 @@ export type ActionItem = {
 
 export const menuItems: MenuItem[] = [
   { label: "Dashboard", icon: Home, href: "/aluno/dashboard",  },
-  { label: "Quizz", icon: Gamepad2, href: "/aluno/dashboard/Lista-alunos" },
+  { label: "Quizz", icon: Gamepad2, href: "/aluno/quizz" },
   { label: "TPCs", icon: NotebookPen, href: "/aluno/dashboard/TPCs" },
   { label: "Avaliações", icon: FileCheck, href: "/aluno/dashboard/Avaliacoes" },
 ];

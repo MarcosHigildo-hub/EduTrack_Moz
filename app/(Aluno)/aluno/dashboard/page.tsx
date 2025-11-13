@@ -12,7 +12,7 @@ export default function ProfessorDashboard() {
   return (
     <div className="grid grid-cols-2 gap-4 P-4">
       <div className="grid grid-rows-2 gap-4">
-        <div className="grid grid-cols-2 gap-2 mr-2">
+        <div className="grid grid-cols-2 gap-2 ">
           {stats.map((stat, index) => (
             <StatCard key={index} {...stat} />
           ))}
@@ -23,7 +23,7 @@ export default function ProfessorDashboard() {
         </div>
       </div>
 
-      <div className="grid grid-rows-2 gap-4">
+      <div className="grid grid-rows-2 gap-4 ">
         <div>
           <DesafioDoDiaCard />
         </div>

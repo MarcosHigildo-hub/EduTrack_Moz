@@ -61,8 +61,8 @@ export default function QuizRelampago() {
   return (
     <div className="bg-gradient-to-br from-teal-50 to-cyan-50 p-6 rounded-2xl mt-2  shadow-lg border-2 border-blue-200">
       <div className="flex items-center gap-3 mb-4">
-        <Zap className="w-5 h-5 text-blue-600 animate-pulse" />
-        <h2 className="text-xl font-bold text-black">Quiz Relâmpago</h2>
+        <Zap className="w-7 h-7 text-blue-600 animate-pulse" />
+        <h2 className="text-lg font-bold text-black">Quiz Relâmpago</h2>
         <span className="ml-auto bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold animate-pulse">
           {perguntaAtual + 1}/{perguntas.length}
         </span>
