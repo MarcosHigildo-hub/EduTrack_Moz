@@ -21,7 +21,7 @@ const TodayTask = () => {
   return (
     <div className="bg-white mt-4 ml-4 rounded-2xl text-center h-57 hover:shadow-lg transition-shadow shadow-sm">
       <div className="p-2 flex justify-between items-center">
-        <h1 className="font-semibold text-xl text-[#2F59E0]">Agenda</h1>
+        <h1 className="font-semibold text-xl text-[#2F59E0]">Notificações</h1>
         <Calendar24 />
       </div>
 

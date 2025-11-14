@@ -28,7 +28,7 @@ export default function Progresse() {
             />
           </div>
           <span className="text-sm text-gray-600 font-semibold">
-            Taxa de precença
+            Desempenho
           </span>
         </div>
 

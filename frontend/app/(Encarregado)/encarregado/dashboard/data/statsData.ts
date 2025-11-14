@@ -2,8 +2,8 @@ import { Users, BookOpen, FileCheck, ArrowUpRight, NotebookPen} from "lucide-rea
 
 export const stats = [
   {
-    title: 'Alunos',
-    value: 32,
+    title: 'Educandos',
+    value: 3,
     subtitle: '',
     buttonIcone: ArrowUpRight,
     icon: Users,

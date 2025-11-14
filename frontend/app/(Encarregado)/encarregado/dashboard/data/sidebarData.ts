@@ -20,11 +20,11 @@ export type Turmas = {
 }
 
 export const menuItems: MenuItem[] = [
-  { label: "Dashboard", icon: Home, href: "/professor/dashboard",  },
-  { label: "Alunos", icon: Users, href: "/professor/dashboard/Lista-alunos" },
-  { label: "Plano Analítico", icon: BookOpen, href: "/professor/dashboard/Plano-analitico" },
+  { label: "Dashboard", icon: Home, href: "/encarregado/dashboard",  },
+  // { label: "Alunos", icon: Users, href: "/professor/dashboard/Lista-alunos" },
+  { label: "Plano Analítico", icon: BookOpen, href: "/encarregado/dashboard/Plano-analitico" },
   { label: "TPCs", icon: NotebookPen, href: "/TPCs" },
-  { label: "Avaliações", icon: FileCheck, href: "/professor/dashboard/Avaliacoes" },
+  { label: "Avaliações", icon: FileCheck, href: "/encarregado/dashboard/Avaliacoes" },
 ];
 
 export const actionItem: ActionItem[] = [
@@ -33,8 +33,8 @@ export const actionItem: ActionItem[] = [
 ];
 
 export const turmas: Turmas[] = [
-  { id: "t1", nome: "Turma A" },
-  { id: "t2", nome: "Turma B" },
-  { id: "t3", nome: "Turma C" },
+  { id: "t1", nome: "Luís Domingos" },
+  { id: "t2", nome: "Ana Domingos" },
+  { id: "t3", nome: "Carlos luís" },
 ];
 

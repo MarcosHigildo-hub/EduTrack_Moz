@@ -9,7 +9,7 @@ export default function Progresse() {
   return (
     <div className="bg-white mt-4 rounded-2xl text-center h-57 hover:shadow-lg transition-shadow shadow-sm">
       <div className="p-6">
-        <h1 className="font-semibold text-xl text-[#2F59E0]">Desempenho da Turm</h1>
+        <h1 className="font-semibold text-xl text-[#2F59E0]">Desempenho da Turma</h1>
       </div>
 
       <div className="flex justify-between items-center py-5">

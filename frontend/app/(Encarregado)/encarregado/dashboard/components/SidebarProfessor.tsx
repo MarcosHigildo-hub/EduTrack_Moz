@@ -56,7 +56,7 @@ export default function SidebarProfessor() {
               htmlFor="turma-select"
               className="font-medium text-sm  text-gray-700 flex  items-center gap-3  py-3 "
             >
-              <GraduationCap size={20} /> Selecionar Turma
+              <GraduationCap size={20} /> Selecionar Educando
             </label>
           </div>
 
